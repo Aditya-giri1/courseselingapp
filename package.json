@@ -1,0 +1,17 @@
+{
+  "name": "courseseelingapp",
+  "version": "1.0.0",
+  "description": "- Intialize a new node.js project \r - Add express , jsonwebtokent ot it as a dependeency\r - Create index.js\r - Add route skeleton for user login, signup, purchase a course, add course content.\r - Add roustes for admin login, admin signup, create a course, delete a course, add course content.\r -Add middlewares for user and admin auth\r - Add a database (mongodb), use detoencc to store the database connection string \r - Define the schema for user, Admin, couse, puchase\r - Complete the routes for user login, signup, purchase a course, see course (Extra points - use express rrousting) to better strurture your routes)\r - Create the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4"
+  }
+}
