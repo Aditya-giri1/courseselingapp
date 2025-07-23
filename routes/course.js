@@ -11,7 +11,7 @@ courseRourter.post("/puchase", function(req, res){
 
 courseRourter.get("/preview", function(req, res){
     res.json({
-        message: "signup endpoint"
+        message: "course preview endpoint"
     })
 })
 module.exports = {
