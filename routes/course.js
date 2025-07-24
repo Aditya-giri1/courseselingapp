@@ -15,5 +15,5 @@ courseRourter.get("/preview", function(req, res){
     })
 })
 module.exports = {
-    courseRourter: courseRourter
-}
+  courseRourter: courseRourter,
+};

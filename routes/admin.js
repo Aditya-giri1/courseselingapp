@@ -12,11 +12,11 @@ adminRouter.post("/signin", function(req, res){
         message: "signin endpoint"
     })
 })
-adminRouter.post("/course", function(req, res){
-    res.json({
-        message: "signin endpoint"
-    })
-})
+adminRouter.post("/course", function (req, res) {
+  res.json({
+    message: "signin endpoint",
+  });
+});
 adminRouter.put("/course", function(req, res){
     res.json({
         message: "signin endpoint"

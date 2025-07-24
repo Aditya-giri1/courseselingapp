@@ -1,9 +1,5 @@
 const { Schema, default: mongoose, mongo } = require("mongoose");
-console.log("connected to database");
 
-mongoose.connect(
-  "mongodb+srv://adityagiri8520:BlGUVIPpm4nLKMBV@cluster0.nm5f3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-);
 
 const ObjectId = mongoose.Types.ObjectId;
 const userSchema = new Schema({
